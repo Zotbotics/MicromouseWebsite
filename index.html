@@ -165,19 +165,20 @@
 							<p>
 								Got more questions? Ask us!
 							</p>
-							<form method="post" action="#">
+							<form method="post" action="/contact.php" target="print_popup"
+								onsubmit="window.open('about:blank','print_popup','width=500,height=200');">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<input required type="text" name="name" id="name" />
 									</div>
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
+										<input required type="email" name="email" id="email" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
+										<textarea required name="message" id="message" rows="4"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
