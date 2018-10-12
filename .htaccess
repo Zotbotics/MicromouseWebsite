@@ -1,2 +1,6 @@
 Options -Indexes
 DirectoryIndex index.html
+
+Redirect 301 /facebook https://www.facebook.com/groups/153805515376853/
+Redirect 301 /join https://docs.google.com/forms/d/1et0SDxtTsOW2ifi24aqbegu8XyEbVxZbk3qe9p_2UQ8/viewform?fbclid=IwAR1B7W3vQGCfzOPynN4-ndrKS_kFfj3rQobG-F6LAstzEdBrzZmypUpEi8M&edit_requested=true
+Redirect 301 /blog https://blog.zotbotics.org/?cat=6
